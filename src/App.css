@@ -281,6 +281,10 @@ nav{
 .parceiros-section{
   padding: 0;
 }
+#parceiros-id{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
 .parceiros-content{
   position: relative;
   display: block;
@@ -440,13 +444,16 @@ nav{
 
 
 /*-----------------RESPONSIVITY-----------------*/
-
+/*
 @media (min-width: 500px) and (max-width: 768px) {
   .parceiros-img-div{
-     width: 100%;
+     width: 100vw;
+  }
+  .worker-all-tabs{
+    width: 640px;
   }
 }
-
+*/
 /*-----------------RESPONSIVITY-----------------*/
 
 
